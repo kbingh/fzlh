@@ -1,0 +1,29 @@
+<p>
+    <a class="btn" data-toggle="collapse" href="#artists" role="button" aria-expanded="false"
+       aria-controls="artists">
+        <img width="100%" src="img/menu/menu_artists.png">
+    </a>
+
+</p>
+<div class="collapse" id="artists">
+    <div class="artist card-body" style="background-color:transparent;">
+
+    </div>
+
+</div>
+
+<script>
+
+
+   $(function(){
+
+       let path = 'img/artists/';
+
+       let imagesArray = ['ALittleWood.jpg', 'AlienHandSyndrome.jpg'];
+
+       $.each(imagesArray, function( index, value ) {
+
+           $('.artist').append('<img src=' + path + value + '>');
+       });
+   });
+</script>

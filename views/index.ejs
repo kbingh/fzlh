@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <%- include('partials/head.ejs') %>
+
+</head>
+<body>
+<%- include('partials/script.ejs') %>
+<header>
+    <%- include('partials/header.ejs') %>
+
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h3>Donate</h3>
+            <%- include('partials/donate.ejs') %>
+        </div>
+        <div class="col-sm-4">
+            <h3>Radialize</h3>
+            <%- include('partials/radialize.ejs') %>
+        </div>
+        <div class="col-sm-4">
+            <h3>Chat</h3>
+            <%- include('partials/chat.ejs') %>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+
+            <%- include('partials/schedule.ejs') %>
+        </div>
+        <div class="col-sm-4">
+
+            <%- include('partials/request.ejs') %>
+        </div>
+        <div class="col-sm-4">
+            <%- include('partials/artists.ejs') %>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <%- include('partials/footer.ejs') %>
+</footer>
+</body>
+
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "fzlhonline",
+  "version": "1.0.0",
+  "description": "online radio station",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Ken Bingham",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "bootstrap": "^4.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "jquery": "^3.5.1",
+    "nodemon": "^2.0.7",
+    "popper.js": "^1.12.9",
+    "routes": "^2.1.0",
+    "socket.io": "^3.1.1"
+  }
+}
